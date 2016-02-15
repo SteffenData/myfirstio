@@ -1,19 +1,8 @@
 //namesort = names.filter(isafilter);
-//console.log(namesort);
-//
-//namesort = names.map(function(value){
-//
-//    return value.toUpperCase()
-//
-//})
-//
-//console.log(namesort)
+
 
 
 var names = ["Lars", "Jan", "Peter", "Bo", "Frederik"]
-
-
-
 
 function isafilter(value) {
 
@@ -21,18 +10,7 @@ function isafilter(value) {
         return value;
     }
 }
-/*function myFilter(array, data)
-{
-    var hej = [];
-    for (var i= 0, max = array.length; i < max; i++){
 
-       if(myFilter(data[i])){
-           hej.push(array[i]);
-       }
-    }
-        return hej;
-
-}*/
 
 
 function usingFilterMethod(array, filterMethodCallback) {
@@ -45,10 +23,9 @@ function usingFilterMethod(array, filterMethodCallback) {
     return hej;
 };
 
+var net = usingFilterMethod(names,isafilter)
 
-
-console.log(names.length);
-console.log(usingFilterMethod(names,isafilter));
+console.log(net);
 
 
 
