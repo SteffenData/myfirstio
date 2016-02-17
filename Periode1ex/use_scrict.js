@@ -6,12 +6,16 @@
 //but the problem is that the compiler can handle this problem, and will translate x to be hello, when we use "use scrict" it will tell us, that there are an error
 // so "use scrict" let the program to run like the developer want it to. it prevent us to use specefik keywords, define a property more that ones ect.
 
-"use strict"
-x = "hello"
-console.log(x)
 
+y = "hello"
+console.log(y)
 
 "use strict"
+// remove var y = ""
+var y =""
+y = "hello"
+console.log(y)
+
 var x = "hello"
 console.log(x)
 
