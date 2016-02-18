@@ -2,6 +2,7 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$/learnyounode/exe8.js" libraries="{ECMAScript 6}" />
-    <file url="PROJECT" libraries="{node-DefinitelyTyped}" />
+    <file url="PROJECT" libraries="{express-DefinitelyTyped, node-DefinitelyTyped}" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>
